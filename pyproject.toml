@@ -1,0 +1,9 @@
+[project]
+name = "real-time-fraud-detection"
+version = "0.1.0"
+description = "Cost-sensitive real-time fraud detection system for imbalanced transaction data."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
