@@ -1,0 +1,236 @@
+{
+  "selected_model": "xgboost",
+  "selected_threshold": 0.39,
+  "false_positive_cost": 25.0,
+  "false_negative_cost": 2500.0,
+  "model_results": {
+    "logistic_regression": {
+      "metrics_at_min_cost_threshold": {
+        "threshold": 0.97,
+        "precision": 0.47802197802197804,
+        "recall": 0.8877551020408163,
+        "f1": 0.6214285714285714,
+        "pr_auc": 0.7189705771419241,
+        "roc_auc": 0.9720834996210077,
+        "true_negatives": 56769,
+        "false_positives": 95,
+        "false_negatives": 11,
+        "true_positives": 87,
+        "classification_report": {
+          "0": {
+            "precision": 0.9998062698133146,
+            "recall": 0.9983293472144062,
+            "f1-score": 0.9990672626799479,
+            "support": 56864.0
+          },
+          "1": {
+            "precision": 0.47802197802197804,
+            "recall": 0.8877551020408163,
+            "f1-score": 0.6214285714285714,
+            "support": 98.0
+          },
+          "accuracy": 0.998139110284049,
+          "macro avg": {
+            "precision": 0.7389141239176463,
+            "recall": 0.9430422246276113,
+            "f1-score": 0.8102479170542597,
+            "support": 56962.0
+          },
+          "weighted avg": {
+            "precision": 0.9989085685283254,
+            "recall": 0.998139110284049,
+            "f1-score": 0.9984175560028188,
+            "support": 56962.0
+          }
+        }
+      },
+      "min_cost_threshold": {
+        "threshold": 0.97,
+        "false_positives": 95,
+        "false_negatives": 11,
+        "true_positives": 87,
+        "true_negatives": 56769,
+        "total_cost": 29875.0
+      }
+    },
+    "random_forest": {
+      "metrics_at_min_cost_threshold": {
+        "threshold": 0.04,
+        "precision": 0.5986394557823129,
+        "recall": 0.8979591836734694,
+        "f1": 0.7183673469387755,
+        "pr_auc": 0.86113564171368,
+        "roc_auc": 0.9517596765070687,
+        "true_negatives": 56805,
+        "false_positives": 59,
+        "false_negatives": 10,
+        "true_positives": 88,
+        "classification_report": {
+          "0": {
+            "precision": 0.999823990143448,
+            "recall": 0.9989624366910523,
+            "f1-score": 0.9993930277359935,
+            "support": 56864.0
+          },
+          "1": {
+            "precision": 0.5986394557823129,
+            "recall": 0.8979591836734694,
+            "f1-score": 0.7183673469387755,
+            "support": 98.0
+          },
+          "accuracy": 0.9987886661282961,
+          "macro avg": {
+            "precision": 0.7992317229628805,
+            "recall": 0.9484608101822609,
+            "f1-score": 0.8588801873373845,
+            "support": 56962.0
+          },
+          "weighted avg": {
+            "precision": 0.9991337741333467,
+            "recall": 0.9987886661282961,
+            "f1-score": 0.9989095384498357,
+            "support": 56962.0
+          }
+        }
+      },
+      "min_cost_threshold": {
+        "threshold": 0.04,
+        "false_positives": 59,
+        "false_negatives": 10,
+        "true_positives": 88,
+        "true_negatives": 56805,
+        "total_cost": 26475.0
+      }
+    },
+    "xgboost": {
+      "metrics_at_min_cost_threshold": {
+        "threshold": 0.39,
+        "precision": 0.6304347826086957,
+        "recall": 0.8877551020408163,
+        "f1": 0.7372881355932204,
+        "pr_auc": 0.8654664995435913,
+        "roc_auc": 0.9834390037669543,
+        "true_negatives": 56813,
+        "false_positives": 51,
+        "false_negatives": 11,
+        "true_positives": 87,
+        "classification_report": {
+          "0": {
+            "precision": 0.9998064198226102,
+            "recall": 0.9991031232414181,
+            "f1-score": 0.9994546478080361,
+            "support": 56864.0
+          },
+          "1": {
+            "precision": 0.6304347826086957,
+            "recall": 0.8877551020408163,
+            "f1-score": 0.7372881355932204,
+            "support": 98.0
+          },
+          "accuracy": 0.9989115550718023,
+          "macro avg": {
+            "precision": 0.8151206012156529,
+            "recall": 0.9434291126411172,
+            "f1-score": 0.8683713917006282,
+            "support": 56962.0
+          },
+          "weighted avg": {
+            "precision": 0.9991709361589931,
+            "recall": 0.9989115550718023,
+            "f1-score": 0.999003604688113,
+            "support": 56962.0
+          }
+        }
+      },
+      "min_cost_threshold": {
+        "threshold": 0.39,
+        "false_positives": 51,
+        "false_negatives": 11,
+        "true_positives": 87,
+        "true_negatives": 56813,
+        "total_cost": 28775.0
+      }
+    },
+    "isolation_forest": {
+      "metrics_at_min_cost_threshold": {
+        "threshold": 0.42000000000000004,
+        "precision": 0.04939835338822039,
+        "recall": 0.7959183673469388,
+        "f1": 0.09302325581395349,
+        "pr_auc": 0.17035227487716656,
+        "roc_auc": 0.9530455049211581,
+        "true_negatives": 55363,
+        "false_positives": 1501,
+        "false_negatives": 20,
+        "true_positives": 78,
+        "classification_report": {
+          "0": {
+            "precision": 0.9996388783561743,
+            "recall": 0.9736036859876196,
+            "f1-score": 0.9864495264906857,
+            "support": 56864.0
+          },
+          "1": {
+            "precision": 0.04939835338822039,
+            "recall": 0.7959183673469388,
+            "f1-score": 0.09302325581395349,
+            "support": 98.0
+          },
+          "accuracy": 0.9732979881324392,
+          "macro avg": {
+            "precision": 0.5245186158721973,
+            "recall": 0.8847610266672792,
+            "f1-score": 0.5397363911523196,
+            "support": 56962.0
+          },
+          "weighted avg": {
+            "precision": 0.9980040415975131,
+            "recall": 0.9732979881324392,
+            "f1-score": 0.9849124355436277,
+            "support": 56962.0
+          }
+        }
+      },
+      "min_cost_threshold": {
+        "threshold": 0.42000000000000004,
+        "false_positives": 1501,
+        "false_negatives": 20,
+        "true_positives": 78,
+        "true_negatives": 55363,
+        "total_cost": 87525.0
+      }
+    }
+  },
+  "features": [
+    "Time",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount"
+  ]
+}
