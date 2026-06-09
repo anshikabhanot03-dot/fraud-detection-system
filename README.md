@@ -1,4 +1,4 @@
-# 🚨 Real-Time Fraud Detection System (Cost-Sensitive Machine Learning)
+# 🚨 Real-Time Fraud Detection System
 
 A production-style machine learning system that detects fraudulent credit card transactions in real time while minimizing financial loss under extreme class imbalance.
 
