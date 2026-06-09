@@ -30,6 +30,19 @@ Fraud detection is a high-stakes classification problem with extreme class imbal
 Build a system that minimizes **total expected financial loss**, not just prediction error.
 
 ---
+## 🚀 Live Deployment
+
+A working end-to-end fraud detection dashboard is deployed here:
+
+👉 https://fraud-detection-system-000.streamlit.app/
+
+You can:
+- Upload transaction data (CSV)
+- View fraud risk scores in real time
+- Adjust decision threshold
+- See flagged transactions instantly
+
+---
 
 ## 📦 Dataset
 
