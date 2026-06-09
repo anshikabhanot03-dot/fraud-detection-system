@@ -3,7 +3,7 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-ROOT_DIR = Path(__file__).resolve().parents[1]
+ROOT_DIR = Path(__file__).resolve().parents[2]
 sys.path.append(str(ROOT_DIR / "src"))
 
 import json
@@ -49,4 +49,3 @@ if uploaded_file:
     col3.metric("Threshold", f"{threshold:.2f}")
 
     st.dataframe(output.head(100), use_container_width=True)
-
